@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ecf0f1;
+    background-image: url(img/arequipa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+
+legend {
+    font-weight: bold;
+    font-family: 'Tangerine';
+    font-size: 30px;
+    text-align: center;
+}
+
+.gradeInput {
+    margin-bottom: 5%;
+}
+
+legend {
+    font-weight: bold;
+    color: #2980b9;
+    font-size: 70px;
+}
+
+.gradeInput {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #34495e;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2980b9;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+
+.error {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nota-input {
+    margin-bottom: 10px;
+}
+
+
+
+.form-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-section h3 {
+    flex-basis: 100%;
+}
+
+.form-section > div {
+    flex-basis: 50%;
+}
